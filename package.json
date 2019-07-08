@@ -6,7 +6,7 @@
     "start": "webpack-dev-server --config build/webpack.config.dev.js",
     "build": "webpack --config build/webpack.config.prod.js"
   },
-  "keywords": [],
+  "keywords": ["react"],
   "author": "{{author}}",
   "license": "{{license}}",
   "devDependencies": {
