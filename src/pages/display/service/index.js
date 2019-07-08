@@ -1,4 +1,4 @@
-import { get } from 'utils/request';
+import { get } from '@utils/request';
 
 /**
  * 获取 Mock 数据

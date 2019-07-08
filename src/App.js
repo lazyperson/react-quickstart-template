@@ -8,28 +8,27 @@ import styles from './App.less';
 // Loading 提示
 const loadingComponent = () => <span>Loading</span>;
 
-
 // Home 组件
 const Home = Loadable({
-    loader: () => import('pages/home'),
+    loader: () => import('@pages/home'),
     loading: loadingComponent
 })
 
 // Settings 组件
 const Settings = Loadable({
-    loader: () => import('pages/settings'),
+    loader: () => import('@pages/settings'),
     loading: loadingComponent
 })
 
 // Display 组件
 const Display = Loadable({
-    loader: () => import('pages/display'),
+    loader: () => import('@pages/display'),
     loading: loadingComponent
 })
 
 // NotFound 组件
 const NotFound = Loadable({
-    loader: () => import('pages/exception'),
+    loader: () => import('@pages/exception'),
     loading: loadingComponent
 })
 

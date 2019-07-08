@@ -1,15 +1,14 @@
 {
-  "name": "react-quickstart",
-  "version": "1.0.0",
-  "description": "react快速开发脚手架",
-  "private": true,
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
   "scripts": {
     "start": "webpack-dev-server --config build/webpack.config.dev.js",
     "build": "webpack --config build/webpack.config.prod.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "{{author}}",
+  "license": "{{license}}",
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",

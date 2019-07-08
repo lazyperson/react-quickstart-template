@@ -113,10 +113,10 @@ module.exports = {
     resolve: {
         // 设置别名
         alias: {
-            src: appSrc,
-            utils: path.resolve(__dirname, '../src/utils'),
-            pages: path.resolve(__dirname, '../src/pages'),
-            components: path.resolve(__dirname, '../src/components')
+            '@src': appSrc,
+            '@utils': path.resolve(__dirname, '../src/utils'),
+            '@pages': path.resolve(__dirname, '../src/pages'),
+            '@components': path.resolve(__dirname, '../src/components')
         },
         // 设置模块查找范围
         modules: [path.resolve(__dirname, '../node_modules')]

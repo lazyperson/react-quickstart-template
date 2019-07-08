@@ -1,6 +1,8 @@
-# react-quickstart
-进行 React 脚手架模板
+# react-quickstart-template
+React 脚手架模板
 
+# fe-start-kit
+前端脚手架工具
 
 ## 安装插件
 ``` bash
