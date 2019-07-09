@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
 // 使用 CSS Module 的方式引入 App.less
-import styles from './App.less';
+import styles from './App.{{preCssType}}';
 
 // Loading 提示
 const loadingComponent = () => <span>Loading</span>;

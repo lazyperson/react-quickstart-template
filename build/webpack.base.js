@@ -81,13 +81,36 @@ module.exports = {
                         options: {}
                     },
                     {
+                        loader: 'less-loader',
+                        options: {
+                            javascriptEnabled: true
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            sourceMap: true,
+                            modules: true,
+                            localIdentName: '[local].[hash:8]'
+                        }
+                    },
+                    {
                         loader: 'postcss-loader',
                         options: {
                             plugins: () => [autoprefixer()]
                         }
                     },
                     {
-                        loader: 'less-loader',
+                        loader: 'sass-loader',
                         options: {
                             javascriptEnabled: true
                         }
